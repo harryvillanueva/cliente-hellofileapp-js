@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Fichero (HTML/JS)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Formulario para Subir Ficheros (JS Fetch)</h1>
+
+    <div class="form-container">
+        
+        <div id="message-container"></div>
+        
+        <form id="upload-form" method="POST" enctype="multipart/form-data">
+            <p>
+                <input type="file" id="file-input" name="file" />
+                <button type="submit">Subir Fichero</button>
+            </p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
